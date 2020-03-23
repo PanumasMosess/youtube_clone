@@ -9,6 +9,7 @@ const VideoItem = ({ video, onVideoSelect }) => {
         style={{ display: "flex", alignItems: "center", cursor: "pointer" }}
         onClick={() => onVideoSelect(video)}
       >
+        {/* llllll */}
         <img
           style={{ marginRight: "20px" }}
           alt="thumbnail"
